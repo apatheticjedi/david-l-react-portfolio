@@ -5,6 +5,7 @@ import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 import Footer from './Footer';
+import background from '../assets/video/background.mp4'
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('About');
@@ -29,6 +30,13 @@ export default function PortfolioContainer() {
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
       <Footer />
+      <video
+      autoPlay
+      loop
+      muted
+      id='video'>
+        <source src={background} type='video/mp4' />
+      </video>
     </div>
   );
 }
