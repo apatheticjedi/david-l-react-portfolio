@@ -55,7 +55,7 @@ export default function Portfolio() {
                 key={i}
                 >
                     <a href={project.link}>
-                        {/* <img src="" /> */}
+                        <img src={require(`../../assets/${i}.png`)} alt={project.name} />
                         <div className="project-title">
                             <p><strong>{project.name}</strong><br /><br />{project.languages}</p>
                         </div>
