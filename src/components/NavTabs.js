@@ -3,7 +3,7 @@ import React from 'react';
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <div>
+    <nav>
       <h1>David Lundt</h1>
       <ul className="nav nav-tabs">
         <li className="nav-item">
@@ -47,8 +47,8 @@ function NavTabs({ currentPage, handlePageChange }) {
           </a>
         </li>
       </ul>
-      </div>
-      );
+    </nav>
+  );
 }
 
-      export default NavTabs;
+export default NavTabs;

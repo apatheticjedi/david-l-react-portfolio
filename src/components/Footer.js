@@ -4,10 +4,14 @@ export default function Footer() {
     return (
         <footer>
             <ul>
-                <li><a href="https://www.linkedin.com/in/davidlundt/">LinkedIn</a></li>
-                <li><a href="https://github.com/apatheticjedi">GitHub</a></li>
-                <li><a href="https://stackoverflow.com/users/19491645/davidl">Stack Overflow</a></li>
-                <li><a href="mailto:thedudeabides1981@hotmail.com">Email</a></li>
+                <li><a href="https://www.linkedin.com/in/davidlundt/">
+                <i class="fa-brands fa-linkedin"></i>
+                </a></li>
+                <li><a href="https://github.com/apatheticjedi">
+                <i class="fa-brands fa-github"></i>
+                </a></li>
+                <li><a href="https://stackoverflow.com/users/19491645/davidl"><i class="fa-brands fa-stack-overflow"></i></a></li>
+                <li><a href="mailto:david.lundt@gmail.com"><i class="fa-solid fa-envelope"></i></a></li>
             </ul>
 
             <div>

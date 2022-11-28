@@ -47,23 +47,27 @@ export default function Portfolio() {
     ])
 
     return (
-        <div>
+        <>
             <h2>Portfolio</h2>
             {projects.map((project, i) => (
-                <div 
-                className="projects"
-                key={i}
+                <div
+                    className="projects mx-1"
+                    key={i}
                 >
                     <a href={project.link}>
                         <img src={require(`../../assets/${i}.png`)} alt={project.name} />
-                        <div className="project-title">
-                            <p><strong>{project.name}</strong><br /><br />{project.languages}</p>
-                        </div>
                         <div className="overlay">
+                            <div className="project-title">
+                                <p><strong>{project.name}</strong><br /><br />{project.languages}</p>
+                                <p>{project.description}</p>
+                                <a href={project.repo} id="github-link">
+                                    <i class="devicon-github-original-wordmark colored"></i>
+                                    </a>
+                            </div>
                         </div>
                     </a>
                 </div>
             ))}
-        </div>
+        </>
     );
 }
