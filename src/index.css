@@ -139,12 +139,14 @@ input, textarea {
   border-radius: 3px;
   transition: box-shadow 0.2s;
   display: block;
+  width: 40%;
 }
 
 input:focus, textarea:focus {
   border: 1px solid var(--secondary-color);
   box-shadow: 0 0 .25rem var(--secondary-color);
   color: var(--primary-color);
+
 }
 
 button {
@@ -176,7 +178,7 @@ footer ul li {
   list-style: none;
   display: inline;
   margin: 0 1rem;
-  font-size: xx-large;
+  font-size: x-large;
 }
 
 footer div {
@@ -185,7 +187,9 @@ footer div {
     padding-top: .5rem;
 }
 
-#github-link {
-  font-size: 50px;
+#github-link, #project-link {
+  font-size: 42px;
   text-decoration: none;
+  margin: 0 1rem;
+  color: var(--secondary-color);
 }
