@@ -6,10 +6,10 @@ export default function About() {
             <div className='about'>
                 <h2>About Me</h2>
                 <img src={require("../../assets/avatar-img.png")} alt="David L avatar" className='avatar' />
-                <p>
+                <p className='content'>
                     I am currently attending a coding boot camp through the University of Oregon in Full Stack Web Development. My goal is to become a web developer once I am finished. I have a diverse background in media production, career services, recruiting, and sales. I am looking to apply my creativity and motivation in pursuit of this new career.
                 </p>
-                <p>
+                <p className='content'>
                     My interests include astronomy, mycology, film production, and board games. I enjoy playing and creating board games in my free time. I also love watching movies.
                 </p>
             </div>
