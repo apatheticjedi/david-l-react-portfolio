@@ -51,7 +51,7 @@ export default function Portfolio() {
             <h2>Portfolio</h2>
             {projects.map((project, i) => (
                 <div
-                    className="projects mx-1"
+                    className="projects"
                     key={i}
                 >
                         <img src={require(`../../assets/projects/${i}.png`)} alt={project.name} />

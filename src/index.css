@@ -164,18 +164,6 @@ nav a:hover::before {
   opacity: 1;
 }
 
-footer {
-  background-color: var(--secondary-color);
-  color: var(--tertiary-color);
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  height: 2rem;
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 2rem;
-}
-
 form {
   margin: 1rem;
 }
@@ -221,23 +209,38 @@ button:active {
   background-color: var(--secondary-color);
 }
 
+#resume, #resume:visited {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+footer {
+  background-color: var(--secondary-color);
+  color: var(--tertiary-color);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 2rem;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 2rem;
+}
+
 footer a {
   color: var(--tertiary-color);
   text-decoration: none;
   font-weight: bold;
 }
 
-footer ul li {
+footer li {
   list-style: none;
   display: inline;
   margin: 0 1rem;
-  font-size: x-large;
 }
 
 footer div {
     text-align: right;
     margin-right: 1rem;
-    padding-top: .5rem;
 }
 
 #github-link, #project-link {
@@ -247,3 +250,19 @@ footer div {
   color: var(--secondary-color);
 }
 
+@media screen and (max-width: 768px) {
+  .projects {
+    width: 85%;
+    max-width: 100%;
+    margin: 0 auto 20px;
+    display: block;
+  }
+
+  .overlay {
+    opacity: 92%;
+  }
+
+  input, textarea {
+    width: 75%;
+  }
+}
