@@ -10,6 +10,7 @@ import background from '../assets/video/background.mp4'
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('About');
 
+  // conditionally render current page
   const renderPage = () => {
     if (currentPage === 'About') {
       return <About />;
@@ -30,6 +31,8 @@ export default function PortfolioContainer() {
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
       <Footer />
+      
+      {/* render background video */}
       <video
       autoPlay
       loop

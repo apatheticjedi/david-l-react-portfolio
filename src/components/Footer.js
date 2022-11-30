@@ -3,6 +3,7 @@ import React from 'react';
 export default function Footer() {
     return (
         <footer>
+            {/* profile links */}
             <ul>
                 <li><a href="https://www.linkedin.com/in/davidlundt/">
                 <i className="fa-brands fa-linkedin"></i>

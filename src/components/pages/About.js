@@ -1,5 +1,6 @@
 import React from 'react';
 
+// export about page
 export default function About() {
     return (
         <>
@@ -13,6 +14,7 @@ export default function About() {
                     My interests include astronomy, mycology, film production, and board games. I enjoy playing and creating board games in my free time. I also love watching movies.
                 </p>
             </div>
+            {/* technology icons */}
             <div className='technologies'>
                 <h3>Core Proficiencies</h3>
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt='html logo' />

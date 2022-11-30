@@ -8,6 +8,7 @@ function ContactForm() {
 
   const { name, email, message } = formState;
 
+  // validate data was entered into form
   function handleChange(e) {
     if (e.target.name === 'email') {
       const isValid = validateEmail(e.target.value);
@@ -29,6 +30,7 @@ function ContactForm() {
 
   }
 
+  // submit button (currently non-functioning)
   function handleSubmit(e) {
     e.preventDefault();
     console.log(formState);
@@ -38,6 +40,7 @@ function ContactForm() {
 
     <section>
       <h2>Contact me</h2>
+      {/* contact me form */}
       <form id='contact-form' onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Name: </label>
