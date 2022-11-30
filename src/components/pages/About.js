@@ -17,14 +17,38 @@ export default function About() {
             {/* technology icons */}
             <div className='technologies'>
                 <h3>Core Proficiencies</h3>
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt='html logo' />
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt='css logo' />
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt='javascript logo' />
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt='bootstrap logo' />
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg" alt='mongodb logo' />
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg" alt='express logo' />
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" alt='react logo' />
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt='node.js logo' />
+                <div className='tooltip'>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt='html logo' />
+                    <span className='tooltiptext'>HTML</span>
+                </div>
+                <div className='tooltip'>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt='css logo' />
+                    <span className='tooltiptext'>CSS</span>
+                </div>
+                <div className='tooltip'>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt='javascript logo' />
+                    <span className='tooltiptext'>JavaScript</span>
+                </div>
+                <div className='tooltip'>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt='bootstrap logo' />
+                    <span className='tooltiptext'>Bootstrap</span>
+                </div>
+                <div className='tooltip'>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg" alt='mongodb logo' />
+                    <span className='tooltiptext'>MongoDB</span>
+                </div>
+                <div className='tooltip'>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg" alt='express logo' />
+                    <span className='tooltiptext'>Express.js</span>
+                </div>
+                <div className='tooltip'>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" alt='react logo' />
+                    <span className='tooltiptext'>React</span>
+                </div>
+                <div className='tooltip'>
+                    <span className='tooltiptext'>Node.js</span>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt='node.js logo' />
+                </div>
             </div>
         </>
     );
