@@ -30,7 +30,10 @@ This is a single-page application of my portfolio written in React. It uses cond
 
 ## Installation
 
-There is no installation required, as this page is currently hosted on Netlify. You can view the hosted page here: [Netlify Link](https://davidlundt.netlify.app/)
+There is no installation required, as this page is currently hosted on GitHub pages as well as Netlify. You can view the hosted pages here: 
+
+* [GitHub Page](https://apatheticjedi.github.io/david-l-react-portfolio/)
+* [Netlify Link](https://davidlundt.netlify.app/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
