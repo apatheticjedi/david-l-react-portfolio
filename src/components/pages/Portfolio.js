@@ -63,9 +63,9 @@ export default function Portfolio() {
                                 <strong>{project.name}</strong><br /><br />{project.languages}
                             </p>
                             <p>{project.description}</p>
-                            <a href={project.repo} id="github-link">
+                            <a href={project.repo} id="github-link" target="_blank" rel="noreferrer">
                                 <i className="fa-brands fa-github"></i>
-                            </a><a href={project.link}><i className="fa-solid fa-link" id="project-link"></i></a>
+                            </a><a href={project.link} target="_blank" rel="noreferrer"><i className="fa-solid fa-link" id="project-link"></i></a>
                         </div>
                     </div>
                 </div>

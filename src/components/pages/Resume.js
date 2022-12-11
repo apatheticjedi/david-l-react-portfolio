@@ -8,7 +8,7 @@ export default function Resume() {
             <div className='resume-div'>
                 {/* resume link */}
                 <button>
-                    <a href='https://docs.google.com/document/d/1O8CMEfeUqQn1rI-o2eXsUCifCOsN7H8jIOcjnHS0MH4/edit?usp=sharing' id='resume'>Click here to view my resume</a>
+                    <a href='https://docs.google.com/document/d/1O8CMEfeUqQn1rI-o2eXsUCifCOsN7H8jIOcjnHS0MH4/edit?usp=sharing' id='resume' target="_blank" rel="noreferrer">Click here to view my resume</a>
                 </button>
                 <ul>
                     <li>
