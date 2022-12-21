@@ -4,6 +4,13 @@ import React, { useState } from 'react';
 export default function Portfolio() {
     const [projects] = useState([
         {
+            name: 'GitInit to Win It',
+            link: 'https://blooming-reef-74951.herokuapp.com/', 
+            repo: 'https://github.com/frieskevin/board-game-tracker',
+            description: "This is a group project done for class. It is a PWA that allows users to track board game scores and comment on other users' board game sessions.",
+            languages: 'React, Node.js, HTML, CSS, JavaScript, MongoDB'
+        },
+        {
             name: 'Xdream',
             link: 'https://nameless-falls-05978.herokuapp.com/',
             repo: 'https://github.com/llacourciere/Xdream',
