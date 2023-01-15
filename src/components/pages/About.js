@@ -8,7 +8,7 @@ export default function About() {
                 <h2>About Me</h2>
                 <img src={require("../../assets/avatar-img.png")} alt="David L avatar" className='avatar' />
                 <p className='content'>
-                    I am currently attending a coding boot camp through the University of Oregon in Full Stack Web Development. My goal is to become a web developer once I am finished. I have a diverse background in media production, career services, recruiting, and sales. I am looking to apply my creativity and motivation in pursuit of this new career.
+                    I recently completed a coding boot camp through the University of Oregon in Full Stack Web Development. I have also taken courses in Web Design, Advanced JavaScript Concepts, and jQuery. My goal is to join a great team as a web developer. I have a diverse background in media production, career services, recruiting, and sales. I am looking to apply my creativity and motivation in pursuit of this new career.
                 </p>
                 <p className='content'>
                     My interests include astronomy, mycology, film production, and board games. I enjoy playing and creating board games in my free time. I also love watching movies.
