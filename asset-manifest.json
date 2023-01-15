@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/david-l-react-portfolio/static/css/main.a8b8be99.css",
-    "main.js": "/david-l-react-portfolio/static/js/main.905070c9.js",
+    "main.js": "/david-l-react-portfolio/static/js/main.00f1dc2f.js",
     "static/media/background.mp4": "/david-l-react-portfolio/static/media/background.9fe1c882f5e463f68796.mp4",
     "static/media/2.png": "/david-l-react-portfolio/static/media/2.d2f010e122ce4f250fa5.png",
     "static/media/7.png": "/david-l-react-portfolio/static/media/7.7e03cc36f07712d832a1.png",
@@ -13,10 +13,10 @@
     "static/media/6.png": "/david-l-react-portfolio/static/media/6.df9a2dde9939b0ff4ac7.png",
     "index.html": "/david-l-react-portfolio/index.html",
     "main.a8b8be99.css.map": "/david-l-react-portfolio/static/css/main.a8b8be99.css.map",
-    "main.905070c9.js.map": "/david-l-react-portfolio/static/js/main.905070c9.js.map"
+    "main.00f1dc2f.js.map": "/david-l-react-portfolio/static/js/main.00f1dc2f.js.map"
   },
   "entrypoints": [
     "static/css/main.a8b8be99.css",
-    "static/js/main.905070c9.js"
+    "static/js/main.00f1dc2f.js"
   ]
 }
