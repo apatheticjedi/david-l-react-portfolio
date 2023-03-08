@@ -46,11 +46,11 @@ export default function Portfolio() {
             languages: 'JavaScript, Node.js, MongoDB'
         },
         {
-            name: 'JavaScript Coding Quiz',
-            link: 'https://apatheticjedi.github.io/javascript-code-quiz/',
-            repo: 'https://github.com/apatheticjedi/javascript-code-quiz',
-            description: "This is a quiz program written in JavaScript with boilerplate questions about JavaScript that can be easily modified for any topic.",
-            languages: 'HTML, CSS, JavaScript'
+            name: 'Asteroids',
+            link: 'https://apatheticjedi.github.io/asteroids/',
+            repo: 'https://github.com/apatheticjedi/asteroids',
+            description: "This is a version of the 1979 Atari game, Asteroids. The game logic is all written in JavaScript and uses Local Storage to save high scores.",
+            languages: 'JavaScript, HTML, CSS'
         },
         {
             name: 'Time Bandits Board Game Website',
